@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Heroku is my Hero</title>
-        <link rel="stylesheet" href="./theme/css/main.css" />
+        <title>Lit Dawn - django</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
 
         <!--[if IE]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,43 +12,35 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="./">Lit Dawn </a></h1>
+                <h1><a href="../">Lit Dawn </a></h1>
                 <nav><ul>
-                    <li><a href="./category/family.html">family</a></li>
-                    <li><a href="./category/misc.html">misc</a></li>
-                    <li class="active"><a href="./category/programming.html">programming</a></li>
+                    <li><a href="../category/family.html">family</a></li>
+                    <li><a href="../category/misc.html">misc</a></li>
+                    <li><a href="../category/programming.html">programming</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
-        <a href="./heroku-is-my-hero.html" rel="bookmark"
-           title="Permalink to Heroku is my Hero">Heroku is my Hero</a></h1>
-    </header>
 
-    <div class="entry-content">
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="../heroku-is-my-hero.html">Heroku is my Hero</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2014-07-30T22:00:00">
                 Published: Wed 30 July 2014
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="./author/terrel-shumway.html">Terrel Shumway</a>
+                By                         <a class="url fn" href="../author/terrel-shumway.html">Terrel Shumway</a>
         </address>
-<p>In <a href="./category/programming.html">programming</a>. </p>
-<p>tags: <a href="./tag/django.html">django</a> <a href="./tag/web.html">web</a> <a href="./tag/heroku.html">heroku</a> <a href="./tag/postgresql.html">postgresql</a> </p>
-</footer><!-- /.post-info -->      <p>While working on a project for school, I was looking for a simple way to deploy a Django site.  I discovered Heroku. I had heard about Heroku a while back, but got the impression that it was mostly for Ruby, so I didn't investigate too much. (Ruby is a fine language, but for me it doesn't provide enough marginal benefit over Python to justify the effort to learn it well. Maybe someday, but not now.) This latest endorsement of Heroku was by Jacob Kaplan-Moss, one of the co-founders of the Django project, so I took it seriously.</p>
+<p>In <a href="../category/programming.html">programming</a>. </p>
+<p>tags: <a href="../tag/django.html">django</a> <a href="../tag/web.html">web</a> <a href="../tag/heroku.html">heroku</a> <a href="../tag/postgresql.html">postgresql</a> </p>
+</footer><!-- /.post-info --><p>While working on a project for school, I was looking for a simple way to deploy a Django site.  I discovered Heroku. I had heard about Heroku a while back, but got the impression that it was mostly for Ruby, so I didn't investigate too much. (Ruby is a fine language, but for me it doesn't provide enough marginal benefit over Python to justify the effort to learn it well. Maybe someday, but not now.) This latest endorsement of Heroku was by Jacob Kaplan-Moss, one of the co-founders of the Django project, so I took it seriously.</p>
 <p>I was quite pleasantly surprised.
 I am now officially spoiled.
 Deploying an app was about as simple as it could possibly be.</p>
 <p>It also highlighted a huge hole in my learning.  Heroku uses PostgresQL. Sqlite need not apply because the heroku filesystem is ephemeral. You can create a sqlite database, but as soon as the dyno goes down, your data is gone too. In all of my Djangoing I had never used anything but sqlite. Oops. Then I read about how developing on sqlite (even testing) is a puerile newbie mistake. I guess I really am a newbie.</p>
 <p>Fine. If Heroku can use PostgresQL, so can I.  Then I discover that I <em>really</em> don't want to open that can of worms just yet. I'll use sqlite on my development machine, and PostgresQL on heroku. For now. I am beginning to understand why DBAs get paid the big bucks.</p>
-
-    </div><!-- /.entry-content -->
-
-  </article>
-</section>
+                </article>
+            </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="social">
                         <h2>social</h2>
