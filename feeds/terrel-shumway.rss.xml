@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lit Dawn</title><link>http://terrel.shumway.us/</link><description></description><atom:link href="http://terrel.shumway.us/feeds/terrel-shumway.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 30 Jul 2014 19:00:00 -0600</lastBuildDate><item><title>First Post!</title><link>http://terrel.shumway.us/first-post.html</link><description>&lt;p&gt;This is a test of the pelican site generator.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Terrel Shumway</dc:creator><pubDate>Wed, 30 Jul 2014 19:00:00 -0600</pubDate><guid>tag:terrel.shumway.us,2014-07-30:first-post.html</guid></item></channel></rss>
