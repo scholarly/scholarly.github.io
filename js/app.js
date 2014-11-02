@@ -1,8 +1,10 @@
 (function(){
     var app=angular.module("myapp",[]);
     
-    app.controller("MyController",["$scope"],function($scope){
-        $scope.user={};
+    app.controller("MyController",function($scope){
+        $scope.user={
+            name:"John"
+        };
         
     })
 })()
