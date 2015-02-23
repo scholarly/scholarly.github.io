@@ -3,7 +3,7 @@
 We cannot build Zion vicariously. 
 We must each participate personally.
 We build it one act of service, one relationship, one testimony, one conversion at time.
-[It is a long, long way to walk](https://www.youtube.com/?watch=QMfHeLdpnJw), but it will be worth every mile, because it will last forever.
+[It is a long, long way to walk](https://www.youtube.com/watch?v=QMfHeLdpnJw), but it will be worth every mile, because it will last forever.
 That's where we'll find Jesus.
 
 
